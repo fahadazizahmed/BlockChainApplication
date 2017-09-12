@@ -1,0 +1,30 @@
+<resources>
+    <string name="send_ether">Send Ether</string>
+    <string name="gas_limit">3000000</string>
+    <string name="gas_limits">Gas Limit :</string>
+    <string name="send_amount">Amount to Send :</string>
+    <string name="receiver_address">Receiver Address :</string>
+    <string name="account_balance">Account Balance :</string>
+    <string name="account_address">Account Address :</string>
+    <string name="account_info">Account Information :</string>
+    <string name="wallet_login">Wallet Login</string>
+    <string name="miran_wallet">Miranz Wallet</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="vlaue">Value:</string>
+    <string name="block_hash">Block Hash:</string>
+    <string name="trans_hash">Transaction Hash:</string>
+    <string name="trannsDetail">Transaction Detail</string>
+    <string name="gas_used">Gas Used:</string>
+    <string name="block_number">Block Number:</string>
+    <string name="tran_info">Transaction Inforrmation:</string>
+    <string name="gen_wallet">Generate Wallet</string>
+    <string name="chk_detail">Check Account Detail</string>
+    <string-array name="actitvity">
+        <item>Send Ether</item>
+        <item>Generate Wallet</item>
+
+
+    </string-array>
+
+</resources>

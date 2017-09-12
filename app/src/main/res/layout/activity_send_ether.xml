@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_ether"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.example.user.blockchainapplication.Activities.SendEther">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <include
+
+                android:id="@+id/app_bar"
+                layout="@layout/app_bar"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/account_info"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/account_address"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:paddingTop="1dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:id="@+id/et_Adress"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/colorBlack"
+        android:editable="false"
+        android:textColorHint="@color/colorBlack"
+        android:hint = "addersss"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/account_balance"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:editable="false"
+        android:layout_marginBottom="2dp"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_balance"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:paddingTop="1dp"
+        android:layout_marginBottom="6dp"
+        android:hint = "balance"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/receiver_address"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_receiverAdd"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:layout_marginBottom="2dp"
+            android:editable="false"
+            android:hint = "Receiver Addresss"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_scan"
+            android:paddingTop="15dp"
+            android:background="@drawable/qr_sanner_img" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/send_amount"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_amount"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:paddingTop="1dp"
+        android:layout_marginBottom="2dp"
+        android:hint = "Send Amount"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/gas_limits"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="2dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_glimit"
+        android:layout_marginBottom="2dp"
+        android:paddingTop="1dp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorBlack"
+        android:editable="false"
+        android:text = "@string/gas_limit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/btn_ethSend"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorRed"
+
+        android:text="@string/send_ether"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:id="@+id/btn_tranDetail"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorRed"
+        android:visibility="gone"
+        android:text="@string/trannsDetail"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wallet_generate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.example.user.blockchainapplication.Activities.WalletLogin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <include
+
+                    android:id="@+id/app_bar"
+                    layout="@layout/app_bar"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:layout_marginTop="100dp"
+            android:id="@+id/et_password"
+            android:layout_marginBottom="8dp"
+            android:hint="Wallet Password"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/et_renterPassword"
+            android:hint="Reneter Password "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_chkPassword"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet_login"
+            android:id="@+id/btn_login"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="36dp"
+            android:background="@color/colorRed"/>
+
+</LinearLayout>
