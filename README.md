@@ -25,9 +25,10 @@ Its a basic ethereum wallet made for learning purpopse.
 
 ![accountdetail2](https://user-images.githubusercontent.com/23431286/30065497-779a516c-926e-11e7-9dff-210d4e9e4e71.jpg)
 
+![transprogress](https://user-images.githubusercontent.com/23431286/30065382-0d5bd1b8-926e-11e7-915e-5bb0cb894a37.jpg)
+
 ![sendtransaction](https://user-images.githubusercontent.com/23431286/30065198-8616d892-926d-11e7-8368-e242dd909ada.jpg)
 
-![transprogress](https://user-images.githubusercontent.com/23431286/30065382-0d5bd1b8-926e-11e7-915e-5bb0cb894a37.jpg)
 
 ![transactiondetail](https://user-images.githubusercontent.com/23431286/30065399-1d649dec-926e-11e7-995f-796da39af014.jpg)
 
